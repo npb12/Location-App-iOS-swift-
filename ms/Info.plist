@@ -7,7 +7,7 @@
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
-	<string>MissedSocial.$(PRODUCT_NAME:rfc1034identifier)</string>
+	<string>MissedSocial.$(PRODUCT_NAME:/*your info*/)</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -23,14 +23,14 @@
 		<dict>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>fb835081286539104</string>
+				<string>/*your info*/</string>
 			</array>
 		</dict>
 	</array>
 	<key>CFBundleVersion</key>
 	<string>1</string>
 	<key>FacebookAppID</key>
-	<string>835081286539104</string>
+	<string>/*your info*/</string>
 	<key>FacebookDisplayName</key>
 	<string>Missed.Social</string>
 	<key>LSRequiresIPhoneOS</key>
