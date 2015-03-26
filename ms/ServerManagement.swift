@@ -19,7 +19,7 @@ class ServerManagement
     
     func serverGet()
     {
-        let urlPath = "http://23.239.3.97:8000/user/api/v1/user/?username=garfonzo@gmail.com&api_key=12345&format=json"
+        let urlPath = "Your_URL_Path"
         let url = NSURL(string: urlPath)
         let request = NSURLRequest(URL: url!)
         // Turns on activity spinner
