@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  ms
 //
-//  Created by Elijah MacLeod-Shaw on 2014-12-31. 
+//  Created by Neil Ballard on 2014-12-31. 
 //  Copyright (c) 2014 Missed Social. All rights reserved.
 //
 
@@ -39,11 +39,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate, CLLocationManagerDelegate
         
         // Creating the URL to post to. This URL can (should) be changed, depending on what you're doing
         // For this example, I'm simply sending one 'Location' object.
-        // Note the use of the TastyPie format, with ?username=matt&api_key=12345&format=json
+        
         // Each user should receive their own 'api_key', and this is done server side (not on the apps) but
         // the apps will need to receive that key initially and store it. You'll have to then use that api_key for every
         // call to Zeus
-        let urlPath = "http://23.239.3.97:8000/user/api/v1/location/?username=garfonzo&api_key=12345&format=json"
+        let urlPath = "URL_PATH"
         let url = NSURL(string: urlPath)
         // The request needs to be 'Mutable' because we'll be attaching parameters to the POST request
         let request = NSMutableURLRequest(URL: url!)
