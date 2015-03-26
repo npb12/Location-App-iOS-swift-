@@ -37,7 +37,7 @@ class LandingViewController: UIViewController, FBLoginViewDelegate {
         
         if var myToken = FBSession.activeSession().accessTokenData?.accessToken{
             
-            let urlPath = "http://23.239.3.97:8000/user/app-registration/?access_token=\(myToken)"
+            let urlPath = "http:///*your info*//user/app-registration/?access_token=\(myToken)"
             let url = NSURL(string: urlPath)
             
             let request = NSURLRequest(URL: url!)
