@@ -20,7 +20,7 @@ class CoreDataToServer {
     
     func unloadCoreToServer(latitude: String, longitude: String, timestamp: String)
     {
-        let urlPath = "http://23.239.3.97:8000/user/api/v1/location/?username=garfonzo@gmail.com&api_key=12345&format=json"
+        let urlPath = "URL_PATH"
         let url = NSURL(string: urlPath)
         // The request needs to be 'Mutable' because we'll be attaching parameters to the POST request
         let request = NSMutableURLRequest(URL: url!)
